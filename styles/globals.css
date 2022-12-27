@@ -14,3 +14,24 @@
 .Typewriter__cursor {
     color: #eb83f8;
 }
+.abc {
+    height: 100%;
+}
+
+.particaleContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#tsparticles,
+#infoi {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#tsparticles {
+    z-index: 10;
+}

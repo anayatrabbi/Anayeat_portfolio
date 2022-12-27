@@ -1,5 +1,7 @@
 import Head from "next/head";
+import { About } from "../components/appcomponents/about/About";
 import Introduction from "../components/appcomponents/Introduction/Introduction";
+import ParticaljsBackground from "../components/genericComponents/ParticaljsBackgraound";
 
 export default function Home() {
     return (
@@ -13,7 +15,9 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
+                {/* <ParticaljsBackground /> */}
                 <Introduction />
+                <About />
             </main>
         </div>
     );
